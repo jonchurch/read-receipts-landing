@@ -1,4 +1,4 @@
-https://cdn.gomix.com/45bbd4ac-a4b0-44ca-8913-64f78535b7a6/E65D398B-CBF0-4324-A8BD-097FFA309CBD.PNG# [Start Bootstrap](http://startbootstrap.com/) - [New Age](http://startbootstrap.com/template-overviews/new-age/)
+[Start Bootstrap](http://startbootstrap.com/) - [New Age](http://startbootstrap.com/template-overviews/new-age/)
 
 [New Age](http://startbootstrap.com/template-overviews/new-age/) is a web app landing page theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
