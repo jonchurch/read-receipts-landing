@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
@@ -331,6 +332,7 @@ section.cta .overlay {
 }
 section.contact {
   text-align: center;
+  padding-bottom: 10px;
 }
 section.contact h2 {
   margin-top: 0;
@@ -368,6 +370,12 @@ section.contact ul.list-social li.social-google-plus a {
 }
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
+}
+section.contact h4.credit {
+  padding-top: 20px;
+}
+section.contact h4.credit a {
+  color: white;
 }
 footer {
   background-color: #222222;
