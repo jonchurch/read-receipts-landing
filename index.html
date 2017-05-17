@@ -37,6 +37,16 @@
     <!-- Theme CSS -->
     <link href="css/new-age.css" rel="stylesheet">
 
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+<script>
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"60852fc4d1c5057c5e768c7c9","lid":"1ce4696672"}) })
+    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+};
+
+document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -62,7 +72,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#page-top">Add to Slack</a>
+                        <a class="page-scroll" href="#page-top">Sign Up</a>
                     </li><li>
                         <a class="page-scroll" href="#features">Features</a>
                     </li>
@@ -81,10 +91,9 @@
                     <div class="header-content">
                         <div class="header-content-inner">
                             <h1>Easily request Read Receipts from your team</h1>
-<!--                           <h3>Join our Beta!</h3> -->
+<h3>Join our Beta!</h3>
                         
-                           
-                          <a href="https://animated-roach.gomix.me/login"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+<button id="open-popup" type="button" class="btn btn-lg btn-primary">Sign Up</button>   
                         </div>
                     </div>
                 </div>
