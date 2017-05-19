@@ -39,14 +39,6 @@
 
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 
-<script>
-function showMailingPopUp() {
-    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"60852fc4d1c5057c5e768c7c9","lid":"1ce4696672"}) })
-    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-};
-
-document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
-</script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -216,7 +208,7 @@ document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
             </ul>
         </div>
         <div class="container">
-          <h4 class="credit">Created by <a href="">Jon Church</a> using <a href="https://howdy.ai/botkit/">Botkit</a> and <a href="gomix.com/about">Gomix</a>, in Gainesville, FL</h4>
+          <h4 class="credit">Created by <a href="">Jon Church</a> using <a href="https://howdy.ai/botkit/">Botkit</a> and <a href="glitch.com/about">Glitch</a>, in Gainesville, FL</h4>
           
         </div>
     </section>
@@ -250,6 +242,15 @@ document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
     <!-- Theme JavaScript -->
     <script src="js/new-age.min.js"></script>
      
+
+<script>
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"60852fc4d1c5057c5e768c7c9","lid":"1ce4696672"}) })
+    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+};
+
+document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script>
 
 </body>
 
